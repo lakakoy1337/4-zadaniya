@@ -18,11 +18,11 @@ else:
 print(res)
 
 #2)
-t = input("Начало (H:MM) = ")
+t = input("Время = ")
 t = t.split(":")
 t = float(t[0]) + (float(t[1]) / 60)
 s = int(input("Стоимость = "))
-d = int(input("День(1-7) = "))
+d = int(input("День = "))
 dt = int(input("Длительность = "))
 for i in range(dt):
     if 7 < t < 22 and d < 6:
