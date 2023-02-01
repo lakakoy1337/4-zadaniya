@@ -47,10 +47,10 @@ for i in range(dt):
     print(res)
 
 #3)
-choice = int(input("1. Только одно четное \n"
+kratno = int(input("1. Только одно четное \n"
                        "2. 3 числа кратны трем \n"))
 
-if choice == 1:
+if kratno == 1:
     a = int(input("Введите число a = "))
     b = int(input("Введите число b = "))
     if a % 2 == 0 and b % 2 == 0 or a % 2 == 1 and b % 2 == 1:
@@ -58,7 +58,7 @@ if choice == 1:
     else:
         res = "Верно"
 
-elif choice == 2:
+elif kratno == 2:
     a = int(input("Введите число a = "))
     b = int(input("Введите число b = "))
     c = int(input("Введите число c = "))
